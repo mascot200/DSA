@@ -1,6 +1,7 @@
 function quadratic(n) {
       // loop and count from 0 to n input
     for (let i = 0; i < n; i++) {
+        console.log(i)
         // loop and count from 0 to n input and repeat n - 1 times
         for(j = i; j < n; j++) {
             console.log(j)
@@ -14,5 +15,16 @@ function linear(n){
      }
 }
 
+function cubic(n){
+   for(let i = 0; i < n; i++) {
+     for(let j = i; j < n; j++) {
+        for(let k = j; k < n; k++) {   
+            console.log(k)
+         }
+     }
+   }
+}
+
 quadratic(6) // the bigO is 0(n2)
 linear(100) // the big0 is 0(n)
+cubic(30) // the big0 is 0(n3)
