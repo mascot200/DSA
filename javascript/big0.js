@@ -31,7 +31,7 @@ function logarithmic(n){
     }
 }
 
-      quadratic(6) // the bigO is 0(n2)
+quadratic(6) // the bigO is 0(n2)
 linear(100) // the big0 is 0(n)
 cubic(30) // the big0 is 0(n3)
 logarithmic(1000000) // the big0 is log2(n)
